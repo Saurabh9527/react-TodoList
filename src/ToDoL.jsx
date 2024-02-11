@@ -32,19 +32,6 @@ const doneTodo = (id) => {
     }));
 };
 
-// const upperCaseAll = () => {
-//     setTodos((prevTodos) => prevTodos.map((t) => ({ ...t, task: t.task.toUpperCase() })));
-// }
-
-// const upperCaseOne = (id) => {
-//     setTodos((prevTodos) => prevTodos.map((t) => {
-//         if (t.id === id) {
-//             return { ...t, task: t.task.toUpperCase() };
-//         } else {
-//             return t;
-//         }
-//     }));
-// }
 
 
   return (
