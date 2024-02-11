@@ -1,0 +1,24 @@
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.task-name {
+  margin-right: 10px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  li {
+    padding: 5px;
+  }
+
+  .task-name{
+    margin: 5px 0;
+  }
+}
